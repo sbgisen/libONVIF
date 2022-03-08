@@ -186,12 +186,14 @@ set(src_files
 
 # private header
 set(private_header_files
-		generated/soapDeviceBindingProxy.h
+		#generated/soapDeviceBindingProxy.h
 		#generated/soapDeviceBindingService.h
 		)
 
 # public header
 set(public_header_files
+		generated/soapDeviceBindingProxy.h
+		#generated/soapDeviceBindingService.h
 		OnvifDeviceClient.h
 		)
 
@@ -264,12 +266,13 @@ set(src_files
 
 # private header
 set(private_header_files
-		generated/soapMediaBindingProxy.h
+		#generated/soapMediaBindingProxy.h
 		#generated/soapMediaBindingService.h
 		)
 
 # public header
 set(public_header_files
+		generated/soapMediaBindingProxy.h
 		OnvifMediaClient.h
 		)
 
@@ -316,12 +319,13 @@ set(src_files
 
 # private header
 set(private_header_files
-		generated/soapPTZBindingProxy.h
+		#generated/soapPTZBindingProxy.h
 		#generated/soapPTZBindingService.h
 		)
 
 # public header
 set(public_header_files
+		generated/soapPTZBindingProxy.h
 		OnvifPtzClient.h
 		)
 
